@@ -1,4 +1,19 @@
-.App {
-  text-align: center;
-}
-
+.header {
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    padding: 30px;
+    color: #fff;
+  }
+  
+  .headerTitle {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .headerText {
+    font-size: large;
+    text-align: center;
+  }
+image {
+    object-fit: contain;
+  }
