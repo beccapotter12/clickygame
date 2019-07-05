@@ -2,10 +2,9 @@ import React, { Component } from "react";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Points from "./components/Points";
-import images from "./cards.json.js";
+import images from "./components/cards.json";
 import "./App.css";
 
-//create state component
 class App extends Component {
 
   state = {
@@ -15,7 +14,6 @@ class App extends Component {
     goal: 12,
   };
 
-  //shuffle the cards when user clicks 
   shuffleCard = id => {
     let clickedId = this.state.clickedId;
 
@@ -40,7 +38,6 @@ class App extends Component {
     }
   }
 
-  // run a map to loop through cards and produce the array
   render() {
     return (
       <div className="App">
